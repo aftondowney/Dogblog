@@ -1,0 +1,26 @@
+{ "entries": [{
+    "title": "Bernese Mountain Dog",
+    "category": "Breed",
+    "content": "The Bernese Mountain Dog, called in German the Berner Sennenhund, is a large-sized breed of dog, one of the four breeds of Sennenhund-type dogs from the Swiss Alps.",
+    "date": "03/30/16",
+    "author": "Bri Popson",
+    "image": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s320x320/e15/11377541_698013777008697_1668988756_n.jpg",
+    "blurb": "The Bernese Mountain Dog, called in German the Berner Sennenhund, is a large-sized breed of dog..."
+  }, {
+    "title": "Portland Waterfront",
+    "category": "Portland",
+    "content": "The idea for this park came at the turn of the century when the 1903 Olmsted Report pointed out the need not only for parks within the city, but for a greenway scheme for the riverbanks in order to ensure their preservation for future generations. The 1912 Bennett Plan again showed a need for more parks and river greenways, but instead of reorienting itself to the river, the city's focus was pulled further inland. In the late 1920s, the seawall was built along the Willamette's west bank for the protection of downtown from the annual floods. The seawall not only cut off the water from the people, but the people from the water as well. The construction of Harbor Drive along the west bank in the 1940s continued the trend of isolating the public from the river. With the opening of the Eastbank Freeway (Marquam Bridge, I-5), Harbor Drive became less important to the traffic flow of the city. Governor Tom McCall created the Harbor Drive Task Force in 1968 in order to study proposals for creating a public open space in its place. In 1974, Harbor Drive was torn up and construction of a waterfront park began. It was completed and dedicated in 1978, gaining instant popularity. In 1984, the park was renamed Governor Tom McCall Waterfront Park.",
+    "date": "03/29/16",
+    "author": "Afton Downey",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Waterfront_Park,_Portland.jpg",
+    "blurb": "The idea for this park came at the turn of the century when the 1903 Olmsted Report pointed out the need not only for parks within the city..."
+  }, {
+    "title": "Portland Corgi Walk",
+    "category": "Events",
+    "content": "The Corgi Walk in the Pearl began eight years ago by dog fancier Lynde Paule, who wished to create a venue to raise money to care for injured, abused, abandoned, or neglected dogs, specifically Corgis.",
+    "date": "03/29/16",
+    "author": "Bri Popson",
+    "image": "http://corgiwalk.com/corgiwalk/wp-content/gallery/corgiwalk2015/Website_2015CorgiWalk_104.jpg",
+    "blurb": "The Corgi Walk in the Pearl began eight years ago by dog fancier Lynde Paule..."
+  }]
+}
