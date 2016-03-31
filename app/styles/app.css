@@ -1,9 +1,10 @@
 body {
-  background-image: url(http://demandware.edgesuite.net/aamm_prd/on/demandware.static/-/Sites-joann-product-catalog/default/dw47f0a624/images/hi-res/13/13241559.jpg);
-  background-size: cover;
+  background-color: #cfd9d0;
+  background-size: auto;
   background-repeat: no-repeat;
   font-size: 16px;
-
+}
+nav {
 }
 
 img {
@@ -16,28 +17,36 @@ img {
   float:left;
 }
 
-.media-left{
-  padding-left: 10px;
-  padding-bottom: 10px;
+.pull-xs-left{
+  padding: 10px;
 }
 
-.media-body {
-  padding-right: 10px;
-  padding-bottom: 10px;
+.entryContent {
+  padding: 10px;
 }
 
 #title {
   margin-left: 35px;
   font-size: 30px;
+  color: #d2b29e;
 }
 
 .links {
-  margin-right: 20px;
   font-size: 20px;
+  color: white;
+}
 
+.links:hover {
+  color: #b5d0d4;
+}
+
+.lastOne {
+  margin-right: 35px;
 }
 
 .navbar-default {
+  background-color: #553e52;
+  color: #d2b29e;
   height: 100px;
   padding-top: 30px;
 }

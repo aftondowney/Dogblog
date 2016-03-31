@@ -6,14 +6,8 @@
     <button class="btn btn-xs detail" {{action 'delete' entry}}>Delete</button><br>
     {{update-entry entry=model update="update"}}
   </div>
-<div class="media">
-  <div class="media-left">
-    <img class="entryDetail" src={{entry.image}}>
-  </div>
-  <div class="media-body">
-    <p>{{entry.content}}</p>
-  </div>
-  </div>
+    <img class="entryDetail pull-xs-left" src={{entry.image}}>
+    <p class="entryContent">{{entry.content}}</p>
   <div class="panel-footer">
     <ul>
       {{#each entry.comments as |comment|}}
