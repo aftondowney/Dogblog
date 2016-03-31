@@ -1,7 +1,9 @@
 body {
-  background-image:
-  background-size: contain;
-  background-repeat:
+  background-image: url(http://demandware.edgesuite.net/aamm_prd/on/demandware.static/-/Sites-joann-product-catalog/default/dw47f0a624/images/hi-res/13/13241559.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 16px;
+
 }
 
 img {
@@ -24,6 +26,18 @@ img {
   padding-bottom: 10px;
 }
 
-footer, #title {
-  margin-left: 15px;
+#title {
+  margin-left: 35px;
+  font-size: 30px;
+}
+
+.links {
+  margin-right: 20px;
+  font-size: 20px;
+
+}
+
+.navbar-default {
+  height: 100px;
+  padding-top: 30px;
 }
