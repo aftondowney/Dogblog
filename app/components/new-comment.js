@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  addNewComment: false,
   actions: {
     commentFormShow() {
       this.set('addNewComment', true);
@@ -10,8 +11,8 @@ export default Ember.Component.extend({
         content: this.get('content'),
         date: this.get('date'),
         user: this.get('user'),
+        entry: this.get('entry'),
       };
-      console.log(params);
       this.set('addNewComment', false);
       this.sendAction('saveComment2', params);
     }
