@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+}
+
+.entryDetail {
+  width: 600px;
+  align-items: center;
+  float:left;
+}
+
+.media-left{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+footer, #title {
+  margin-left: 15px;
+}

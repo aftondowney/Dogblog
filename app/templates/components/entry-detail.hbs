@@ -1,9 +1,18 @@
-<h2>{{entry.title}}</h2>
-<p>Written by {{entry.author}}</p>
-<p>{{entry.date}}</p>
-
-<br><br>
-<img src={{entry.image}}>
-<p>{{entry.content}}</p>
-
-<button class="btn btn-xs detail" {{action 'delete' entry}}>Delete</button>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2>{{entry.title}}</h2>
+    <p>Written by {{entry.author}}</p>
+    <p>{{entry.date}}</p>
+    <button class="btn btn-xs detail" {{action 'delete' entry}}>Delete</button>
+  </div>
+<div class="media">
+  <div class="media-left">
+    <img class="entryDetail" src={{entry.image}}>
+  </div>
+  <div class="media-body">
+    <p>{{entry.content}}</p>
+  </div>
+  </div>
+  <div class="panel-footer">
+  </div>
+</div>
