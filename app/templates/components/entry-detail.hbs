@@ -17,7 +17,7 @@
   <div class="panel-footer">
     <ul>
       {{#each entry.comments as |comment|}}
-        {{comment-tile comment=comment entry=model}}
+        {{comment-tile comment=comment entry=model destroyComment="destroyComment"}}
       {{/each}}
     </ul>
   </div>

@@ -1,2 +1,5 @@
-<li><p>Comment by: {{comment.user}}</p>
-<p>{{comment.content}}</p></li>
+<li><div class="well well-sm">
+  <p>{{comment.content}}</p>
+  <p>Comment by: {{comment.user}}</p><br>
+  <button class="btn btn-xs detail" {{action 'delete' comment}}>Delete</button>
+</div></li>
