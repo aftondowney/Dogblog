@@ -1,3 +1,9 @@
+body {
+  background-image:
+  background-size: contain;
+  background-repeat:
+}
+
 img {
   width: 100%;
 }
@@ -10,6 +16,11 @@ img {
 
 .media-left{
   padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.media-body {
+  padding-right: 10px;
   padding-bottom: 10px;
 }
 

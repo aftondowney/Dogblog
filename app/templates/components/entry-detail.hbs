@@ -15,5 +15,10 @@
   </div>
   </div>
   <div class="panel-footer">
+    <ul>
+      {{#each entry.comments as |comment|}}
+        {{comment-tile comment=comment entry=model}}
+      {{/each}}
+    </ul>
   </div>
 </div>
